@@ -13,6 +13,11 @@ nav {
     display: flex;
 }
 
+img {
+    display: flex;
+    max-width: 100%;
+}
+
 .nav__row {
     width: 100%;
     max-width: 1280px;
@@ -105,6 +110,15 @@ nav {
     text-decoration: none;
 }
 
+.row {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}    
+    
+
 .header__container {
     width: 100%;
     max-width: 12800px;
@@ -123,7 +137,8 @@ nav {
 }
 
 .header__descripton {
-    width: 80%;
+    width: 40%;
+    
 }
 
 .header__description__para {
@@ -183,4 +198,8 @@ nav {
   outline: none;
   border-color: rgba(100, 21, 255);
 }
+
+
+
+
 
