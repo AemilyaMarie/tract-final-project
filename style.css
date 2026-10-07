@@ -276,6 +276,7 @@ header {
   align-items: center;
   text-align: center;
   margin-top: 64px;
+  width: calc(100% 3);
 }
 
 .section__features__row {
