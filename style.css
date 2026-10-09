@@ -292,13 +292,18 @@ header {
   padding: 20px;
   border: 1px solid #e5e7eb;
   border-radius: 500px;
+  
+}
+.feature__img {
+   width: 80px;
+  height: 80px;
 }
 
 .img {
  display: flex;
  max-width: 100%;
- width: 24px;
-  height: 24px;
+ width: 80px;
+  height: 80px;
 }
 
 
