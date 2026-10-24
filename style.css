@@ -332,6 +332,15 @@ header .row {
   margin: 0 auto;
 }
 
+#features .section__title, 
+#quality .section__title, 
+#values .section__title, 
+#pricing .section__title, 
+#testamonials .section__title, 
+#start .section__title {
+  font-size: 16px;
+}
+
 #quality .section__title,
 #quality .section__heading,
 #quality .section__description--para {
@@ -1234,6 +1243,15 @@ MOBILE RESPONSIVENESS
 
 @media (max-width: 1280px) {
 
+  #features .section__title, 
+#quality .section__title, 
+#values .section__title, 
+#pricing .section__title, 
+#testamonials .section__title, 
+#start .section__title {
+  font-size: 16px;
+}
+
   header .row {
     align-items: flex-end;
   }
@@ -1332,7 +1350,7 @@ MOBILE RESPONSIVENESS
     font-size: 16px;
   }
   .section__title {
-    font-size: 36px;
+    font-size: 16px;
   }
   .quality__description {
     margin-right: 0px;
@@ -1356,7 +1374,7 @@ MOBILE RESPONSIVENESS
   }
   #features .section__title,
   #pricing .section__title {
-    font-size: 48px;
+    font-size: 16px;
   }
 
   #testimonials .container {
@@ -1454,6 +1472,15 @@ MOBILE RESPONSIVENESS
     display: block;
   }
 
+    #features .section__heading, 
+#quality .section__heading, 
+#values .section__heading, 
+#pricing .section__heading, 
+#testamonials .section__heading, 
+#start .section__heading {
+  font-size: 36px;
+}
+
 
   .section__features {
     justify-content: center;
@@ -1514,6 +1541,18 @@ MOBILE RESPONSIVENESS
     max-width: 448px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #quality .section__description--para,
+  #quality .section__title,
+  #quality .section__heading,
+  #steps .section__title,
+  #values .section__title,
+  #values .section__heading,
+  #values .section__description--para,
+  #testimonials .section__title,
+  #testimonials .section__description--para {
+    text-align: center;
   }
 
   #steps .row,
@@ -1587,13 +1626,31 @@ MOBILE RESPONSIVENESS
 }
 
 @media (max-width: 640px) {
+
+  #features .section__title, 
+#quality .section__title, 
+#values .section__title, 
+#pricing .section__title, 
+#testamonials .section__title, 
+#start .section__title {
+  font-size: 16px;
+}
+
+  #features .section__heading, 
+#quality .section__heading, 
+#values .section__heading, 
+#pricing .section__heading, 
+#testamonials .section__heading, 
+#start .section__heading {
+  font-size: 36px;
+}
+
   .section__title {
     line-height: 1.25;
-    font-size: 30px;
   }
 
   .container {
-    padding: 80px 0;
+    padding: 80px 24px;
   }
 
   .nav__logo {
@@ -1632,7 +1689,7 @@ MOBILE RESPONSIVENESS
 
   #features .section__title,
   #pricing .section__title {
-    font-size: 36px;
+    font-size: 16px;
   }
 
   .feature__title {
@@ -1932,171 +1989,4 @@ MOBILE RESPONSIVENESS
     margin-left: 0px;
   }
 }
-
-@media (max-width: 640px) {
-  .section__title {
-    line-height: 1.25;
-    font-size: 30px;
-  }
-
-  .container {
-    padding: 80px 0;
-  }
-
-  .nav__logo {
-    margin: 8px 0;
-    padding-bottom: 4px;
-  }
-
-  .header__email {
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-    gap: 12px;
-  }
-
-  .header__email--input {
-    position: relative; 
-    padding: 16px 24px; 
-    width: 100%;
-    line-height: 1.5;
-  }
-
-  .header__email--btn {
-    position: relative;
-    width: 100%;
-    height: 52px;
-    padding: 16px 0;
-    margin: 0;
-    line-height: 1.5;
-  }
-
-  .header__customers--title {
-    font-size: 14px;
-    letter-spacing: 0.05em;
-  }
-
-  #features .section__title,
-  #pricing .section__title {
-    font-size: 36px;
-  }
-
-  .feature__title {
-    letter-spacing: 0.025em;
-    line-height: 1;
-  }
-
-  .section__feature__text {
-    margin-left: 0px;
-    margin-top: 16px;
-  }
-
-  .feature__para {
-    margin-top: 4px;
-    line-height: 2;
-  }
-
-  #steps .section__title {
-    margin: 16px 0 0 0;
-  }
-
-  .steps__list {
-    margin-top: 48px;
-  }
-
-  .btn {
-    line-height: 1.5;
-  }
-
-  .plan__price {
-    font-size: 36px;
-  }
-
-  .plan__bottom {
-    padding: 2rem 1rem;
-  }
-
-  .testimonial__para {
-    margin-bottom: 32px;
-  }
-
-  .testimonial__bottom {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 4px;
-  }
-
-  .testimonial__profile {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .testimonial__details {
-    margin-left: 0;
-    margin-top: 8px;
-  }
-
-  .testimonial__img {
-    height: 64px;
-    width: 64px;
-  }
-
-  .testimonial__buttons {
-    margin-top: 32px;
-  }
-
-  .start__title {
-    font-size: 24px;
-  }
-
-  #start .container {
-    padding: 48px 0;
-  } 
-
-  .start__container {
-    padding: 80px;
-  }
-
-  .start__buttons {
-    flex-direction: column;
-  }
-
-  .start__button:nth-child(1) {
-    margin-right: 0;
-  }
-
-  .start__button {
-    padding: 12px 24px;
-    font-size: 14px;
-  }
-
-  .start__button:nth-child(2) {
-    margin-top: 16px;
-  }
-
-  main {
-    margin-bottom: 80px;
-  }
-
-  .footer__columns {
-    justify-content: center;
-  }
-
-  .footer__column {
-    width: auto;
-    padding: 0 16px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .footer__copyright {
-    font-size: 14px;
-    text-align: center;
-    line-height: 1.5;
-  }
-}
-    
-
-
 
